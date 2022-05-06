@@ -37,7 +37,7 @@ class TableViewController: UITableViewController {
         // set the title
         self.title = "User Options"
         
-        // construct first name cell, section 0, row 0
+        // construct first cell, section 0, row 0
         firstNameText = UITextField(frame: CGRect(x: 0, y: 0, width: firstCell.contentView.frame.width, height: firstCell.contentView.frame.height))
         firstNameText.placeholder = "First Name"
         firstCell.addSubview(self.firstNameText)
